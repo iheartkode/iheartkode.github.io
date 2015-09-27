@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@media only screen and (max-width : 320px) {
+  nav ul li  {
+    text-align: center;
+     margin: 0 auto;
+   }
+  .contact img{
+    width: 50px;
+  }
+  .gh-ribbon {
+    display: none;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gh-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+nav li a {
+  display: inline;
+  background-color: #464847;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav li a:hover {
+  color: #000;
+  background: #28d079;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 100%;
+  -o-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  max-width: 200px;
+  margin-top: 100px;
+  border: 5px solid white;
+}
+
+.title {
+  display: block;
+  margin: auto auto;
+}
+
+header {
+  background-image: url(../img/sandiego.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  margin-top: -50px;
+  color: white;
+  border-bottom: 5px solid #28d079;
+  height: 565px;
+}
+
+.slogan {
+  display: block;
+  margin: 0 auto;
+  max-width: 550px;
+  color: #f0faf4;
+  text-align: center;
+  background-color: rgba(31, 18, 18, 0.4);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+/* Begin Projects Section */
+.projects {
+  background: #333;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.projects a:link {
+ color: #28d079;
+  text-decoration: none;
+}
+
+.projects a:visited {
+  color: #28d079;
+}
+
+.projects a:hover {
+  color: white;
+}
+
+.projects h1,h2,h3,h4 {
+ color: white;
+}
+/* End Projects Section */
+
+/* Begin About Section */
+.about {
+  text-align: justify;
+  background: #28d079;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.about_content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about a:link {
+ color: #5f5d5d;
+  text-decoration: none;
+}
+
+.about a:visited {
+  color: #464847;
+}
+
+.about a:hover {
+  color: #333;
+}
+
+.about h2 {
+  color: #fff;
+}
+/* End About Section */
+
+/* Begin Contact Section */
+.contact {
+  text-align: center;
+  background: white;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.contact a:link {
+  color: #5f5d5d;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: #28d079;
+}
+/* End Contact Section */
+
+
+.first_row_title {
+  text-align: center;
+}
+
+.second_row_title {
+  text-align: center;
+}
+
+.second_row {
+  text-align: center;
+}
+
+
+.skills ul {
+    list-style: none;
+}
+
+.skills {
+    text-align: center;
+}
+
+.sandiego {
+  color: #333;
+  display: none;
+  text-align: center;
+   background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  font-size:  28px;
+  border-radius: 10px;
+  
+}
