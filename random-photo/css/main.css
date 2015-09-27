@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body {
+    background-color: #12100E;
+
+    color: #eee;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+img {
+    border-radius: 10px;
+}
+
+
+h1 {
+    color: #DBE0FF;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+button {
+    color: #000000;
+}
