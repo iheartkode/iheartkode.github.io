@@ -1,0 +1,23 @@
+{
+  "name": "iheartkode.github.io",
+  "version": "3.0.0",
+  "description": "Personal Website for Mark Howard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iheartkode/iheartkode.github.io.git"
+  },
+  "keywords": [
+    "jade",
+    "sass"
+  ],
+  "author": "Mark Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iheartkode/iheartkode.github.io/issues"
+  },
+  "homepage": "https://github.com/iheartkode/iheartkode.github.io#readme"
+}
