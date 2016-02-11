@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald);
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+header {
+    position: relative;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    color: #003f54;
+    border-bottom: 5px solid #003f54;
+}
+header h1 {
+    color: #003f54;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.image-header {
+    width: 90px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+nav {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav li {
+    margin-top: 5px;
+    display: inline-block;
+    list-style: none;
+    background: #003f54;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid #DDDDDD;
+    width: 100px;
+    max-width: 100px;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color:white;
+}
+
+
+.skills-img {
+    opacity: 1;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 4px solid #003f54;
+
+}
+
+.marketing-title {
+    color: #0078a0;
+}
+
+.front-end-title {
+    color:#0078a0;
+}
+
+.other-skills-title {
+    color: #0078a0;
+}
+
+.blue {
+    color:#0078a0;
+}
+
+h1,h2 {
+    color: #003f54;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hover-nav {
+    background: #007095;
+}
+
+.social-icons li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.social-icons a {
+    color: white;
+}
+.get-in-touch {
+    border-top: 4px solid #ddd;
+    background: #444444;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.get-in-touch i {
+    color: white;
+}
+.get-in-touch h2 {
+    color: #FFF;
+}
+
+.fa {
+    color: #444444;
+}

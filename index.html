@@ -1,35 +1,140 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" rel="stylesheet">
-    <link href="dist/css/main.min.css" rel="stylesheet">
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iHeartKode | Personal Site for Mark Howard</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <script src="js/vendor/modernizr.js"></script>
   </head>
+  <body>
+    <header>
+        <!-- Nav Row -->
+        <div class="row">
+            <!-- logo page title row -->
+            <div class="medium-7 column logo">
+                <img src="img/selfie.jpg" alt="Selfie" class="image-header"/>
+                <h1>< Mark Howard /></h1>
+            </div> <!-- end logo title row -->
+            <!-- nav column -->
+            <div class="medium-5 column nav">
+                <nav>
+                    <ul>
+                        <li id="home">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li id="about">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li id="projects">
+                            <a href="projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!-- end nav column -->
+         </div> <!-- end nav row -->
+        </header>
+    <!--skill container -->
+    <div class="skills">
+        <img src="img/skillsbg1.jpg" alt="" class="skills-img">
+        <!-- skills row -->
+        <div class="row">
+            <!-- skills column -->
+            <div class="small-12 column">
+                <ul class="small-block-grid-3 text-center">
+                    <br/>
+                    <h2>< SKILLS /></h2>
+                    <p>The following are skills that I know and or currently learning.</p>
+                    <hr/>
+                    <li>
+                        <h3 class="marketing-title">Marketing</h3>
+                        SEO & SEM Marketing <br/>
+                        Social Media Management<br/>
+                        Product Marketing <br/>
+                        Analytics Monitoring
+                    </li>
+                    <li>
+                        <h3 class="front-end-title">Front End</h3>
+                        HTML <br/>
+                        CSS <br/>
+                        jQuery <br/>
+                        JavaScript <br/>
+                        Lodash
+                    </li>
+                    <li>
+                        <h3 class="other-skills-title">Additional Skills</h3>
+                        Ruby <br/>
+                        Rails <br/>
+                        NodeJS <br/>
+                        ExpressJS <br/>
+                        GIT <br/>
+                        Linux
+                    </li>
+                </ul>
+                <hr/>
+            </div><!-- end skills column -->
+        </div><!-- end skills row-->
+    </div><!-- end skills container div -->
+    <!-- get in touch container div -->
+    <div class="get-in-touch">
+        <!-- get in touch row -->
+        <div class="row">
+            <!-- get in touch column -->
+            <div class="medium-12 column text-center">
+                <h2>< Get in Touch /></h2>
+                <p>You can find me through the following mediums</p>
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://github.com/iheartkode">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://codepen.io/iheartkode/pens/public/">
+                            <i class="fa fa-codepen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com/iheartkode">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/kodermine/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/iheartkode">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--- get in toch end column -->
+        </div><!-- get in touch end row -->
+    </div><!-- get in touch container end -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56461141-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+  </body>
 </html>
-<body>
-  <header>
-    <h1>Mark Howard</h1>
-    <ul>
-      <li> <a href="#about">About</a></li>
-      <li> <a href="#projects">Projects</a></li>
-      <li> <a href="#contact"> Contact </a></li>
-    </ul>
-  </header>
-  <section class="intro"><img src="https://avatars1.githubusercontent.com/u/7018580?v=3&amp;s=460" width="250">
-    <p>Web Developer and ultra nerd in the making!!  </p>
-  </section>
-  <section class="about">
-    <div id="about" class="anchor"></div>
-    <h2>About</h2>
-    <p>Give attitude. Hate dog who's the baby stare at ceiling, immediately regret falling into bathtub. Jump off balcony, onto stranger's head put toy mouse in food bowl run out of litter box at full speed and swat at dog. Shove bum in owner's face like camera lens. Russian blue kick up litter hiss at vacuum cleaner for chirp at birds or then cats take over the world rub face on everything hate dog. </p>
-  </section>
-  <section class="projects">
-    <div id="projects" class="anchor"></div>
-    <h2>Projects</h2>
-    <p>Give attitude. Hate dog who's the baby stare at ceiling, immediately regret falling into bathtub. Jump off balcony, onto stranger's head put toy mouse in food bowl run out of litter box at full speed and swat at dog. Shove bum in owner's face like camera lens. Russian blue kick up litter hiss at vacuum cleaner for chirp at birds or then cats take over the world rub face on everything hate dog. </p>
-  </section>
-  <section class="contact">
-    <div id="contact" class="anchor"></div>
-    <h2>Contact</h2>
-  </section>
-</body>
