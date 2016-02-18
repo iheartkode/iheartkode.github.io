@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .titles {
+        font-size: 18px;
+        color: #555;
+      }
+        #loader {
+          display: none;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <title>Site Speed Checker</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Site Speed Checker</h1>
+
+      <p>"http://" is not required.</p>
+      URL:
+      <input type="text" id="site" placeholder="eg: iheartkode.com">
+      <button id="stats">Get Results</button>
+      <div id="loader">
+        <p>fetching...</p>
+      </div>
+      <p id="output"></p>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.12.0.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
