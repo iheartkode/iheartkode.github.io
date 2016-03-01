@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+#explore, #char-sheet {
+    display: none;
+}
+
+hr {
+    margin: 10px 0;
+    padding: 0;
+}
+
+h1 {
+    color: #6BE7F4;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+
+span {
+    color: green;
+    font-size: 18px;
+}
+
+button {
+    background: green;
+    color: white;
+    
+}
