@@ -10,7 +10,7 @@ hr {
 }
 
 h1 {
-    color: #6BE7F4;
+    color: #444;
 }
 
 h4 {
@@ -24,7 +24,9 @@ span {
 }
 
 button {
-    background: green;
+    background: #444;
     color: white;
-    
+}
+button:hover {
+    color: lavender;
 }
