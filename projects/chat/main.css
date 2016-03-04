@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+.message {
+  color: green;
+  font-family: 'Handlee', cursive;
+}
+
+.example-chat-username {
+  color: #444;
+}
+
+li {
+  list-style: none;
+}
