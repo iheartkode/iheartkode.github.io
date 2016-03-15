@@ -1,0 +1,23 @@
+
+li {
+  list-style: none;
+}
+.alert {
+  color: green;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.slogan {
+  color: #777;
+}
+
+.todo {
+  font-size: 18px;
+}
