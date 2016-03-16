@@ -1,1 +1,1 @@
-Personal site of Mark Howard
+The personal site of Mark Howard
