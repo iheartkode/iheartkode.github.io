@@ -2,14 +2,18 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
+a:link {
+  color: white;
+  text-decoration: none; }
+
+a:visted {
+  color: white; }
+
 h1,
 h2,
 h3,
 h4 {
   font-family: 'Raleway', sans-serif; }
-
-a:link {
-  color: white; }
 
 .logo {
   position: fixed;
@@ -65,7 +69,8 @@ header {
     color: white;
     text-decoration: none; }
   .icons a:visited {
-    color: white; }
+    color: white;
+    text-decoration: none; }
 
 .about-container {
   width: 100%;
