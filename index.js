@@ -1,6 +1,7 @@
 const alert = new Audio("alert.mp3")
 
 function pray() {
+	 alert("Prayer Timer Set!")
 	const prayInterval = setTimeout(() => {
 	  alert.play()
       alert("Time to Pray")
@@ -9,6 +10,7 @@ function pray() {
 
 
 function meditate() {
+	 alert("Meditation Timer is Set!")
 	const medIterval = setTimeout(() => {
 		alert.play()
         alert("Time to meditate!")
