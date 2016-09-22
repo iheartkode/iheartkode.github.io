@@ -37,13 +37,10 @@ img {
     color: white; }
 
 .meditation {
-  width: 300px;
-  height: 100px;  
   float: left; }
 
 .prayer {
-  width: 300px;
-  height: 100px;
+
   float: right; }
 
 /*# sourceMappingURL=main.css.map */
