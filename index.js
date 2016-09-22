@@ -12,7 +12,7 @@ function meditate() {
 	const medIterval = setTimeout(() => {
 		alert.play()
         alert("Time to meditate!")
-	},900000 )
+	},1800000 )
 }
 
 
