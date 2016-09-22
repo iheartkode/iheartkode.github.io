@@ -1,0 +1,45 @@
+body {
+  background: url(sea.jpg) no-repeat left center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.title {
+  text-align: center;
+  color: white; }
+  .title h1 {
+    font-size: 5em;
+    margin-bottom: -10px;
+    font-family: 'Quintessential', cursive; }
+  .title p {
+    font-size: 1.3em; }
+
+img {
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+  width: 100%;
+  max-width: 400px; }
+
+.status-hover {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  color: transparent;
+  font-size: 2em;
+  width: 300px;
+  height: 200px;
+  transition: all 1s ease;
+  margin: 10px; }
+  .status-hover:hover {
+    transform: translateY(25px);
+    color: white; }
+
+.meditation {
+  float: left; }
+
+.prayer {
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
