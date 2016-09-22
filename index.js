@@ -1,18 +1,19 @@
-const alert = new Audio("alert.mp3")
+const notif = new Audio("alert.mp3")
 
 function pray() {
 	 alert("Prayer Timer Set!")
+	 console.log("set")
 	const prayInterval = setTimeout(() => {
-	  alert.play()
+	  notif.play()
       alert("Time to Pray")
 	}, 1200000)
 }
 
 
 function meditate() {
-	 alert("Meditation Timer is Set!")
+	 window.alert("Meditation Timer is Set!")
 	const medIterval = setTimeout(() => {
-		alert.play()
+		notif.play()
         alert("Time to meditate!")
 	},1800000 )
 }
