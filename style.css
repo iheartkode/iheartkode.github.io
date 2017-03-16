@@ -28,6 +28,9 @@ h3,
 h4 {
   font-family: 'Raleway', sans-serif; }
 
+h1 {
+  font-size: 3em; }
+
 .logo {
   position: fixed;
   top: -5px;
@@ -47,6 +50,47 @@ h4 {
     text-decoration: none; }
   .logo a:hover {
     color: #43cea2; }
+
+.modal-container {
+  visibility: hidden;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-modal {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  top: 30vh;
+  left: 36vw;
+  position: absolute;
+  width: 25%;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); }
+  .contact-modal .button {
+    background: #43cea2;
+    border: 0px;
+    padding: 5px;
+    color: white; }
+    .contact-modal .button:hover {
+      background: #6bd9b6; }
+  .contact-modal .close {
+    color: #43cea2;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3em;
+    cursor: pointer; }
+  .contact-modal form {
+    margin: 0;
+    padding: 0; }
 
 header {
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
@@ -69,7 +113,7 @@ header {
     font-size: 2em; }
 
 .profile-img {
-  border: 5px solid white;
+  border-radius: 10px;
   margin-left: 75px;
   box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75); }
 
@@ -83,6 +127,11 @@ header {
   .icons a:visited {
     color: white;
     text-decoration: none; }
+
+.fa {
+  transition: all 0.4s ease-out; }
+  .fa:hover {
+    transform: scale(1.2); }
 
 .about-container {
   width: 100%;
